@@ -4,7 +4,7 @@ app = express();
 app.get('/', function (req, res) {
   res.send('Hello World!\n');
 });
-//Adding a new code
+//Adding a code change
 app.get('/mars', function (req, res) {
   res.send('Hello Mars!\n');
 });
